@@ -1,0 +1,130 @@
+*,::after,::before
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color:gray ;
+}
+
+.container
+{
+ display:flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.calculator
+{
+   background-color: rgb(37, 30, 30);
+   width: 400px;
+   height: 640px;
+   margin-top:1.3rem;
+   border-radius: 15px;
+}
+
+.brand
+{
+    background: rgb(95, 89, 89);
+    width: 40px;
+    height: 40px;
+    margin: 10px auto;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.screen
+{
+    background: rgba(46, 238, 46,0.2);
+    width:330px;
+    height: 170px;
+    margin: auto;
+    border-radius:10px;
+}
+
+.status
+{
+    color: gray;
+    text-align: right;
+    margin:0 10% 0 0;
+}
+
+.history
+{
+    color: rgb(228, 218, 218);
+    text-align: left;
+    font-size: 20px;
+    margin: 0 0 0 5px;
+}
+
+
+
+.output
+{
+    color: white;
+    text-align: right;
+    position: relative;
+    font-size: 30px;
+    bottom: -50%;
+    margin: 0 5px 0 0px;
+}
+
+.keyboard
+{
+    width: 330px;
+    height: 350px;
+    background: rgb(187, 185, 185);
+    margin: 2rem auto;
+}
+
+.operator,.number,.empty
+{
+    width: 70px;
+    height: 55px;
+    color: white;
+    float: left;
+    margin: 10px 0 0 10px;
+    border-radius:15px;
+    font-weight: bold;
+}
+
+.operator:focus,.number:focus,.empty:focus
+{
+  outline: 0;
+}
+
+
+.operator
+{
+background: blue;
+font-size: 20px;
+}
+
+.number
+{
+background: purple;
+font-size: 16px;
+}
+
+
+@media(max-width:750px)
+{
+.calculator
+{
+margin: 0;
+border-radius:0;
+}
+}
+
+
+
+
+
