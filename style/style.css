@@ -43,11 +43,15 @@ body
 
 .screen
 {
-    background: rgba(46, 238, 46,0.2);
+    /* background:url('../images/computer.jpg') ; */
+    background-color: rgba(27, 190, 27, 0.774);
+    background-size: cover;
+    background-position: center;
     width:330px;
     height: 170px;
     margin: auto;
     border-radius:10px;
+    font-weight: bold;
 }
 
 .status
